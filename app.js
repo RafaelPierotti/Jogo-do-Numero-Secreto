@@ -1,18 +1,18 @@
 let listDrawnNumbers = [];
-let difficult = 10;
+let difficult = 100;
 let secretNumber = generateAleatoryNumber();
 let tries = 1;
 
 
 function displayText(tag, text){
     let camp = document.querySelector(tag);
-    camp.innerHTML = text;
+    camp.innerHTML = text; 
     responsiveVoice.speak(text, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function displayInicialMessage(){
     displayText('h1', 'Jogo do número secreto');
-    displayText('p', 'Escolha um número entre 1 e 10');
+    displayText('p', `Escolha um número entre 1 e ${difficult}`);
 }
 
 displayInicialMessage();
