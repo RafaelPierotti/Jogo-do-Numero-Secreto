@@ -1,5 +1,5 @@
 let listDrawnNumbers = [];
-let difficult = 90;
+let difficult = 100;
 let secretNumber = generateAleatoryNumber();
 let tries = 1;
 
