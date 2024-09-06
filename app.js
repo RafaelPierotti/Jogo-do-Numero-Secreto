@@ -17,7 +17,7 @@ function displayInicialMessage(){
 
 displayInicialMessage();
 
-//console.log(secretNumber);
+console.log(secretNumber);
 
 function checkKick(){
     let kick = document.querySelector('input').value;
